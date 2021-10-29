@@ -1,0 +1,26 @@
+{
+    "name": "Testing",
+    "description": "For small stuffs",
+    "keywords": [
+      "sinhala_news"
+    ],
+
+    "env": {
+        "PushBullet":{
+            "description": "Enter PushBullet API"
+        },
+        "Interval":{
+            "Interval": "Interval"
+        }
+    },
+    "buildpacks": [{
+      "url": "heroku/python"
+    }],
+    "formation": {
+      "worker": {
+        "quantity": 1,
+        "size": "free"
+      }
+    }
+  }
+  
